@@ -26,3 +26,9 @@ def stop():
 
 def start():
     pass
+
+
+try:
+    start()
+except KeyboardInterrupt:
+    stop()
