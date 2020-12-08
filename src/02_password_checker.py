@@ -9,12 +9,3 @@
 - если пароль верный, вывести строку "Пароль верный"
 - если пароль неверный, вывести строку "Ошибка"
 """
-
-password = "hello"
-
-user_password = input("Ваш пароль >>> ")
-
-if password == user_password:
-    print("OK")
-else:
-    print("NOT OK")
