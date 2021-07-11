@@ -4,3 +4,11 @@
 Сделать
 - функцию hello, которая выводит текст приветствия клиенту
 """
+
+
+def print_hello(name):
+    print(f'Привет, {name}!')
+
+print_hello("John")
+print_hello('Skillbox')
+print_hello('Kate')

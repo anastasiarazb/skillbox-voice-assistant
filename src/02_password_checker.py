@@ -9,3 +9,14 @@
 - если пароль верный, вывести строку "Пароль верный"
 - если пароль неверный, вывести строку "Ошибка"
 """
+
+
+password = input("Введите пароль: ")
+
+true_password = "hello"
+
+if password == true_password:
+    print('Ok!')
+else:
+    print('Not ok :(')
+
